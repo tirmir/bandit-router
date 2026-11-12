@@ -1,0 +1,55 @@
+{
+  "seeds": 10,
+  "steps": 5000,
+  "lam": 0.3,
+  "policies": {
+    "always-small": {
+      "quality": 0.44903999999999994,
+      "cost": 0.09999999999999999,
+      "reward": 0.41903999999999997,
+      "final_regret_mean": 1130.8685704238837,
+      "final_regret_std": 9.577746955432529,
+      "large_frac": 0.0
+    },
+    "always-large": {
+      "quality": 0.9013,
+      "cost": 1.0,
+      "reward": 0.6013000000000001,
+      "final_regret_mean": 223.2797742485089,
+      "final_regret_std": 6.658966920771331,
+      "large_frac": 1.0
+    },
+    "random": {
+      "quality": 0.6742999999999999,
+      "cost": 0.5505579999999999,
+      "reward": 0.5091325999999999,
+      "final_regret_mean": 679.7181169740949,
+      "final_regret_std": 11.711826575947011,
+      "large_frac": 0.50062
+    },
+    "epsilon-greedy": {
+      "quality": 0.849,
+      "cost": 0.750016,
+      "reward": 0.6239952000000001,
+      "final_regret_mean": 104.50713080100445,
+      "final_regret_std": 18.322755655680208,
+      "large_frac": 0.72224
+    },
+    "linucb": {
+      "quality": 0.87198,
+      "cost": 0.844786,
+      "reward": 0.6185442,
+      "final_regret_mean": 131.3418457872462,
+      "final_regret_std": 82.78590245495069,
+      "large_frac": 0.8275399999999999
+    },
+    "thompson": {
+      "quality": 0.8697199999999998,
+      "cost": 0.8119720000000001,
+      "reward": 0.6261284,
+      "final_regret_mean": 96.59788716067334,
+      "final_regret_std": 69.34594591857802,
+      "large_frac": 0.79108
+    }
+  }
+}

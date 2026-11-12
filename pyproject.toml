@@ -1,0 +1,17 @@
+[project]
+name = "bandit-router"
+version = "0.1.0"
+description = "Contextual bandits (LinUCB, linear Thompson sampling) for routing between a small and a large model, on synthetic data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["bandit_router"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
